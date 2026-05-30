@@ -853,17 +853,17 @@
       "help": {
         "title": "Nasıl Oynanır",
         "intro": {
-          "goal": "Bu oyunun amacı altıgenlerde verilen 7 eşyala üretebileceğin tüm eşyaları üretmek. Bu oyun modunun hem günlük modu hem de düzenleyicisi olan bir sınırsız mode sahip. Günlük modu tamamlayarak kazanma serisi oluşturabilirsin. By playing unlimited, you get to learn how to play the game, recipes, and play riddles that other players created using the editor!",
+          "goal": "Bu oyunun amacı altıgenlerde verilen 7 eşyala üretebileceğin tüm eşyaları üretmek. Bu oyun modunun hem günlük modu hem de düzenleyicisi olan bir sınırsız mode sahip. Günlük modu tamamlayarak kazanma serisi oluşturabilirsin. [TODO] By playing unlimited, you get to learn how to play the game, recipes, and play riddles that other players created using the editor!",
           "entering_items": "To begin playing, select an item in the hexagons and then click a slot in the crafting table grid, where clicking multiple slots will \"paint\" these slots. Repeat this process until you see your desired recipe in the output slot. Then, click the resulting item to craft! Alternatively, you can also drag-and-drop items from the hexagons or from one slot to another. Additionally, you could also be a \"Keyboard Wizard\" and select the hexagons with the number keys, WASD or arrow keys for the crafting table slots, Space to place, and Enter to craft. Keybinds can be configured in the settings located to the left of the MCdle title."
         },
         "example": {
-          "title": "Example",
-          "intro": "Let's look at some examples! From a single diamond, we can craft 5 individual items!",
-          "try_example": "Try this example",
-          "hint_info": "Feeling stuck? You can enable hints in the box below the delete/clear buttons. The hints will appear above the individual hexagons and tell you how many items you have remaining to craft with that ingredient! From there, you can visit the",
+          "title": "Örnek",
+          "intro": "Hadi bazı örneklere bakalım! Tek bir elmastan 5 farklı eşya üretebiliyoruz!",
+          "try_example": "Bu örneği dene",
+          "hint_info": "Yardıma mı ihtiyacın var? Sil/temizle butonlarının aşağısında bulunan kutucuk ile ipuçlarını açabilirsin. The hints will appear above the individual hexagons and tell you how many items you have remaining to craft with that ingredient! From there, you can visit the",
           "mc_wiki": "Minecraft Wiki",
           "hint_info_2": "to look up recipes.",
-          "test_hints": "Test toggling the hint system"
+          "test_hints": "İpucu sistemini dene"
         },
         "tips": {
           "title": "Tips",
