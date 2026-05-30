@@ -1,0 +1,1639 @@
+{
+  "footer": {
+    "links": {
+      "cookie": {
+        "title": "Çerez Politikası"
+      },
+      "patchnotes": {
+        "title": "Güncelleme Notları"
+      }
+    },
+    "about": {
+      "title": "Hakkında",
+      "button_title": "Hakkında",
+      "intro": "Mcdle, Minecraft ile alakalı içerik için Wordle benzeri bir bulmaca oyunudur. Her gün, yeni bir Minecraft bloğu, eşyası ve canlısı seçilir senin de tahmin etmen gerekir. Bir galibiyet serisi başlatmak için her gün geri gel! Sosyal paylaşma özellikleri var, bu sayede galibiyetlerini & galibiyet serilerini arkadaşlarınla paylaşabilirsin!",
+      "help_pointer": "Oyunu nasıl oynayacağını bilmiyor musun? Her oyun sayfasının başlığın altında şu anki oyun moduyla alakalı örnekler ve detaylı açıklamalar bulunan bir yardım menüsü açacak ? simgesi bulunur.",
+      "suggestions": {
+        "title": "Öneriler",
+        "description": {
+          "pre_link": "",
+          "link": "Discord",
+          "post_link": " üzerinden gelen hata/sorun raporları ve önerilerin çoğuyla ben ilgileniyorum. Katılıp takılmaktan çekinme, we've got melons [TODO]! Ayrıca günün testleri hakkında tartışmak ve galibiyet serilerini paylaşman için kanallarımız var!"
+        }
+      },
+      "support": {
+        "title": "Destek",
+        "description": {
+          "pre_link": "Projeyi desteklemek istiyorsan (url için ödemek, yeni özellikleri desteklemek vs.) ",
+          "link": "Ko-fi",
+          "post_link": " sayfama göz atmayı unutma!"
+        }
+      },
+      "credits": {
+        "title": "Credits",
+        "description": {
+          "pre_link": " Bu oyun için gerekli bilgi ",
+          "link": "Minecraft Wiki",
+          "post_link": " üzerinden edinilmiştir. Ayrıca çoğu görsel orda bulunuyor, bu yüzden wikiyi güncel tutmak için verdikleri çabaya çok teşekkürler! MCdle, Mojang Studios ile ilişkili, onaylı veya sponsorlu değildir. Ama elbette Minecraft'a dayanılarak, Wordle ve LoLdle'dan esinlenilmiştir."
+        },
+        "credit_list": {
+          "kineticraft": {
+            "pre_link": "Arkaplan fotoğrafı için ",
+            "link": "kineticraft.net",
+            "post_link": " sunucusuna teşekkürler!"
+          },
+          "vanilla_tweaks": {
+            "pre_link": "Karpuz & balkabağı kök dokuları için",
+            "link": "Vanilla Tweaks",
+            "post_link": "'e teşekkürler!"
+          },
+          "alldle": {
+            "post_link": "'a MCdle'a sitelerinde yer verdikleri için teşekkürler!"
+          }
+        }
+      },
+      "version": {
+        "title": "Sürüm",
+        "description": "Bugünün oyunu bulmaca #{{version}}! Oyun her gece yarısında (00:00 UTC/GMT Türkiye saatiyle 03:00) yeni bir blok, eşya ve canlı seçecek."
+      },
+      "supporters": {
+        "title": "Destekçiler",
+        "description": {
+          "pre_link": "Tüm",
+          "post_link": " Destekçilerime teşekkürler!"
+        }
+      }
+    }
+  },
+  "header": {
+    "settings": {
+      "headers": {
+        "mcdle": "Mcdle",
+        "crafting_bee": "Crafting Bee"
+      },
+      "colorblind": {
+        "input_name": "Renk körü modu",
+        "label": "Renk körü modu"
+      },
+      "difficulty": {
+        "limit_guesses_6": {
+          "input_name": "Sınırlı tahmin hakkı",
+          "label": "Tahmin hakkını 6 ile kısıtla"
+        },
+        "search": {
+          "game_knowledge": {
+            "input_name": "Oyun bilgisi",
+            "label": "Oyun bilgisi"
+          },
+          "logical": {
+            "input_name": "Mantıksal",
+            "label": "Mantıksal"
+          },
+          "showcase": {
+            "fallback": "Araman için bir zorluk seç!",
+            "game_knowledge": {
+              "description": "Sıfır ipucu, tamamen oyun bilginle baş başasın!",
+              "image_alt": "Oyun bilgisi zorluk araması"
+            },
+            "logical": {
+              "description": "Arama sana bulunan bütün istatistikleri gösterecektir, böylece MCdle bir mantık oyunu olur!",
+              "image_alt": "Mantıksal zorluk araması"
+            }
+          },
+          "title": "Arama:"
+        },
+        "title": "Zorluk"
+      },
+      "keybinds": {
+        "title": "Tuş Atamaları",
+        "binds": {
+          "crafting.selectHex.1": {
+            "name": "1. Altıgeni Seçme",
+            "description": "Select Hex Tile #1 [TODO]" 
+          },
+          "crafting.selectHex.2": {
+            "name": "2. Altıgeni Seçme",
+            "description": "Select Hex Tile #2 [TODO]"
+          },
+          "crafting.selectHex.3": {
+            "name": "3. Altıgeni Seçme",
+            "description": "Select Hex Tile #3 [TODO]"
+          },
+          "crafting.selectHex.4": {
+            "name": "4. Altıgeni Seçme",
+            "description": "Select Hex Tile #4 [TODO]"
+          },
+          "crafting.selectHex.5": {
+            "name": "5. Altıgeni Seçme",
+            "description": "Select Hex Tile #5 [TODO]"
+          },
+          "crafting.selectHex.6": {
+            "name": "6. Altıgeni Seçme",
+            "description": "Select Hex Tile #6 [TODO]"
+          },
+          "crafting.selectHex.7": {
+            "name": "7. Altıgeni Seçme",
+            "description": "Select Hex Tile #7 [TODO]"
+          },
+          "crafting.grid.nav.up": {
+            "name": "Navigate Crafting Grid Up [TODO]",
+            "description": "Move the selector up in the crafting grid [TODO]"
+          },
+          "crafting.grid.nav.down": {
+            "name": "Navigate Crafting Grid Down [TODO]",
+            "description": "Move the selector down in the crafting grid [TODO]"
+          },
+          "crafting.grid.nav.left": {
+            "name": "Navigate Crafting Grid Left [TODO]",
+            "description": "Move the selector left in the crafting grid [TODO]"
+          },
+          "crafting.grid.nav.right": {
+            "name": "Navigate Crafting Grid Right [TODO]",
+            "description": "Move the selector right in the crafting grid [TODO]"
+          },
+          "crafting.grid.placeItem": {
+            "name": "Place Item in Grid [TODO]",
+            "description": "Place the selected item in the crafting grid [TODO]"
+          },
+          "crafting.grid.craftItem": {
+            "name": "Eşya Yap",
+            "description": "Craft the item in the crafting output [TODO]"
+          },
+          "crafting.grid.deleteItem": {
+            "name": "Delete Item in Grid [TODO]",
+            "description": "Delete the item in the crafting grid [TODO]"
+          },
+          "crafting.grid.clear": {
+            "name": "Clear Crafting Grid [TODO]",
+            "description": "Clear the crafting grid [TODO]"
+          },
+          "crafting.grid.clearImmediate": {
+            "name": "Clear Grid Immediately [TODO]",
+            "description": "Clear the crafting grid immediately without confirmation [TODO]"
+          },
+          "crafting.randomize": {
+            "name": "Play Random Game [TODO]",
+            "description": "Get 7 random items to play with [TODO]"
+          }
+        }
+      },
+      "settings_button": {
+        "image_alt": "Ayarlar butonu",
+        "tooltip": "Ayarlar"
+      },
+      "title": "Ayarlar"
+    },
+    "language": {
+      "title": "Dil",
+      "tooltip": "Dil",
+      "description": {
+        "pre_link": "Bu website resmi olarak İngilizce ve Almanca'yı destekler, ama topluluk sayesinde",
+        "link": "Github",
+        "post_link": " üzerinden diğer diller de mümkün oldu. Resmi olmayan çevirilerin doğru veya güncel olacağının hiçbir garantisi yoktur. Eğer herhangi bir hata bulursanız 'pull request' açmaktan çekinmeyin!"
+      }
+    }
+  },
+  "pages": {
+    "404": {
+      "compass_alt": "Compass gif",
+      "message": "Mağaranın sonunda bir 404 ile karşılaştın",
+      "return_message": "Eve dönmek için pusulayı kullan!"
+    },
+    "index": {
+      "header": "Bir oyun modu seç",
+      "links": {
+        "blocks": {
+          "image_alt": "Bloklar ikonu",
+          "subtitle": "Bugünün minecraft bloğunu tahmin et",
+          "title": "Bloklar"
+        },
+        "items": {
+          "image_alt": "Eşyalar ikonu",
+          "subtitle": "Bugünün minecraft eşyasını tahmin et",
+          "title": "Eşyalar"
+        },
+        "mobs": {
+          "image_alt": "Canlılar ikonu",
+          "subtitle": "Bugünün minecraft canlısını keşfet",
+          "title": "Canlılar"
+        },
+        "crafting": {
+          "image_alt": "Crafting Bee icon [TODO]",
+          "subtitle": "Tarifleri biliyor musun?",
+          "title": "Crafting Bee"
+        },
+        "goal": {
+          "title": "MCdle Ansiklopedisi",
+          "image_alt": "Hedef ikonu"
+        },
+        "bestiary": {
+          "title": "Ansiklopedi",
+          "image_alt": "Ansiklopedi ikonu",
+          "subtitle": "İlerlemeni takip et ve toplamaya başla! Halihazırda keşfettiğin şeyleri filtreleyebilirsin!"
+        },
+        "kineticraft": {
+          "title": "kineticraft.net üzerinden sınırsızca oyna",
+          "image_alt": "Kineticraft icon",
+          "subtitle": "Canlı, Blok ve Eşya oyun modları gecikme olmadan oynanabilir, fakat onları dünyada bulman gerekir! /mcdle"
+        }
+      }
+    },
+    "generic": {
+      "game": {
+        "complete_support": {
+          "start": "Eğer MCdle oynarken eğleniyorsan",
+          "end": " üzerinden desteklemeyi düşün!"
+        },
+        "see_in_bestiary": "Ansiklopedide göz at!"
+      }
+    },
+    "block": {
+      "title": "Oyun modu: Bugünün Bloğunu tahmin et!",
+      "sub_title_menus": {
+        "stats": {
+          "title": "İstatistikler",
+          "tooltip": "İstatistikler"
+        },
+        "streak": {
+          "title": "İlerlemeyi Aktar",
+          "tooltip": "Galibiyet Serisi"
+        },
+        "help": {
+          "tooltip": "Nasıl Oynanır"
+        },
+        "bestiary": {
+          "tooltip": "Ansiklopedi"
+        }
+      },
+      "table": {
+        "header": {
+          "title": "Blok",
+          "initial_release": "Çıkış",
+          "stack_size": "Stack size [TODO]",
+          "tool": "Alet(ler)",
+          "blast_resistance": "Patlama Koru<wbr>ması",
+          "hardness": "Sertlik",
+          "flammable": "Yanıcı",
+          "transparent": "Saydam",
+          "full_block": "Tam Blok"
+        },
+        "data": {
+          "tool": {
+            "any_tool": "Herhangi",
+            "axe": "Balta",
+            "pickaxe": "Kazma",
+            "hoe": "Çapa",
+            "shears": "Makas",
+            "sword": "Kılıç",
+            "none": "Hiçbiri",
+            "shovel": "Kürek",
+            "bucket": "Kova",
+            "brush": "Fırça"
+          },
+          "states": {
+            "yes": "Evet",
+            "no": "Hayır",
+            "partial": "Kısmen"
+          }
+        }
+      },
+      "loose": {
+        "title": "Bugünki bloğu bulmayı başaramadın",
+        "subtitle": "Yarın bol şans! (veya ayarlardan tahmin sınırını kapat)"
+      },
+      "win": {
+        "title": "Blok Keşfedildi!",
+        "subtitle": "Bugünün bloğu {{name}} idi!"
+      },
+      "intro": {
+        "description": "Bugünün Minecraft bloğunu tahmin et!",
+        "start_help": "Başlamak için aşağıya yaz!"
+      },
+      "limited_attempts": {
+        "warning": {
+          "zero": "{{remaining}} tahmin hakkın kaldı!",
+          "one": "{{remaining}} tahmin hakkın kaldı!",
+          "two-four": "{{remaining}} tahmin hakkın kaldı!",
+          "many": "{{remaining}} tahmin hakkın kaldı!"
+        }
+      },
+      "search": {
+        "placeholder": {
+          "initial": "Bir blok ara",
+          "new_tomorrow": "Yarın yeni blok!",
+          "no_more_guesses": "Tahmin hakkın kalmadı!"
+        },
+        "submit": {
+          "aria_label": "Bu bloğu dene"
+        },
+        "ambiguous_result": {
+          "description": "Ambiguous block discovered! Further incorrect ambiguous blocks will be crossed out in red. [TODO]",
+          "image_alt": "Treasure hunter - close call"
+        }
+      },
+      "midnight_timer": {
+        "next_thing": "Bir sonrakini almak için sayfayı yenile!",
+        "next_in": "{{time}} sonra yeni blok"
+      },
+      "yesterday_info": {
+        "description": "Dünün bloğu {{name}} idi!"
+      },
+      "next_game": {
+        "name": "Bloklar",
+        "description": "Bugünün bloğunu tahmin etmeye var mısın?"
+      },
+      "quick_help": {
+        "look_for": "Hala daha iyi bir açıklama mı arıyorsun? Oyun simgesinin altındaki",
+        "tooltip": "Nasıl Oynanır",
+        "click_here": "ikonunu ara veya buraya tıkla!"
+      },
+      "help": {
+        "title": "Nasıl Oynanır",
+        "intro": {
+          "goal": "Bu oyunun amacı Minecraft bloğunu bilmek. Her gün yeni bir blok seçilir ve günün bloğunu tahmin etmeye devam ederek bir galibiyet serisi yapabilirsin!",
+          "enter_guesses": "Arama kısmına herhangi bir bloğun ismini yazarak başla. Aramana bağlı olarak 10 tane sonuç çıkacak. Bu bloklardan herhangi birine tıkla veya ok tuşlarınla seç ve cevabını vermek için Enter tuşuna bas.",
+          "field_explanation": "Seçilen bloğun özellikleri bugünün bloğuyla karşılaştırılacak, eğer tamamen eşleşiyorsa yeşil, kısmen eşleşiyorsa sarı ve yanlış ise kırmızı olarak renklendirilecek. Ayrıca yanlış sayı/sürüm bölgelerinin arkasında daha yüksek mi yoksa alçak mı tahmin etmen konusunda bilgilendirek bir ok bulunur."
+        },
+        "example": {
+          "title": "Örnek",
+          "intro": "Hadi örnek bir oyuna bakalım. Önce herhangi bir blok deneyelim.",
+          "table_interpretation_1": "Öğrendik ki bu blok, diğer çoğu gibi, 64'e kadar steklenebilir ve yanıcı değil. Pre-alpha'da eklenmemiş ve bir Kazmayla kırılamaz. O zaman farklı ve yeni bir blok deneyelim.",
+          "table_interpretation_2": "Bloğun sürümünü bulduk! Şimdi Beta 1.8'de eklenen bir blok bulma zamanı. Ek olarak aletlerde kısmi eşleşme bulduk, yani Balta ve bir başka aletle kırılabilir. Ayrıca, blok ne saydam (\"Evet\") ne de opak (\"Hayır\"), Kısmen saydam olmalı o zaman. Hadi bütün bu özelliklerle eşleşen bir blok bulalım.",
+          "table_interpretation_3": "İşte böyle! Bloğun karpuz olduğunu bulduk!"
+        },
+        "partial_matches": {
+          "title": "Kısmi Eşleşme açıklaması",
+          "intro": "Hadi kısmi eşleşmeye detaylıca göz gezdirelim, Çünkü büyük ihtimalle bu oyundaki en kafa karıştırıcı renk.",
+          "explanation": "Kısmi bir eşleşme yalnızca bir listeye sahip olan alanlarda oluşabilir (Aletler gibi). Asıl blokla eşleşen en az bir aletle kırılabilecek bir blok tahmin ederseniz, kısmi eşleşme elde edersiniz. İşte yaprak için bir örnek:"
+        },
+        "tips": {
+          "title": "İpuçları",
+          "not_all_blocks": "MCdle her blok türünü içermez. Beton, Terakota, yün gibi renkli halleri olan bloklar \"Beton\" veya \"Yün\" gibi bir temsili bloğa toplanmıştır . Bu tüm tahta türleri, duvarlar, merdivenler gibi şeyler için de geçerlidir.",
+          "utilize_the_search": "Arama kutusunu iyi kullan! Önerilere göz gezdirmek aramanı daraltmana yardımcı olacaktır.",
+          "use_the_wiki": "Minecraft wikisini kullanmaktan çekinme. Bloğun sürümünü belirlediğin anda wikiyi kullanıp hangi blokların o sürümde eklendiğini bulabilirsin, böylece aramanı büyük oranda daraltabilirsin."
+        }
+      }
+    },
+    "item": {
+      "title": "Oyun modu: Bugünün Eşyasını tahmin et!",
+      "sub_title_menus": {
+        "stats": {
+          "title": "İstatistikler",
+          "tooltip": "İstatistikler"
+        },
+        "streak": {
+          "title": "İlerlemeyi Aktar",
+          "tooltip": "Galibiyet Serisi"
+        },
+        "help": {
+          "tooltip": "Nasıl Oynanır"
+        },
+        "bestiary": {
+          "tooltip": "Ansiklopedi"
+        }
+      },
+      "table": {
+        "header": {
+          "title": "Eşya",
+          "initial_release": "Çıkış",
+          "stack_size": "Stack size",
+          "rarity": "Nadirlik",
+          "inventory_categories": "Yaratıcı Env. Kategorisi",
+          "renewable": "Yenilenebilir",
+          "usage": "Kullanım sayısı",
+          "source": "Kaynak sayısı",
+          "recipe": "Tarif",
+          "loot": "Elde etme [TODO]"
+        },
+        "data": {
+          "rarity": {
+            "common": "Yaygın",
+            "uncommon": "Nadir",
+            "rare": "Ender",
+            "epic": "Destansı",
+            "mixed": "Karışık"
+          },
+          "inventory_category": {
+            "tools_and_utilities": "Aletler ve Araçlar",
+            "redstone_blocks": "Redstone Blokları",
+            "functional_blocks": "İşlevsel Bloklar",
+            "natural_blocks": "Doğal Bloklar",
+            "ingredients": "Malzemeler",
+            "combat": "Saldırı",
+            "food_and_drinks": "Yiyecekler ve İçecekler",
+            "none": "Yok",
+            "spawn_eggs": "Çağırma Yumurtaları",
+            "operator_utilities": "Yönetici Araçları"
+          },
+          "recipe": {
+            "crafting_table": "Çalışma Masası",
+            "furnace": "Fırın",
+            "brewing_stand": "İksir Tezgâhı",
+            "none": "Yok"
+          },
+          "loot": {
+            "container": "Doğal Sandıklar",
+            "mob": "Canlı",
+            "fishing": "Balıkçılık",
+            "trading": "Takas",
+            "none": "Yok"
+          }
+        }
+      },
+      "loose": {
+        "title": "Bugünki eşyayı bulmayı başaramadın",
+        "subtitle": "Yarın bol şans! (veya ayarlardan tahmin sınırını kapat)"
+      },
+      "win": {
+        "title": "Eşya Keşfedildi!",
+        "subtitle": "Bugünün eşyası {{name}} idi!"
+      },
+      "intro": {
+        "description": "Bugünün Minecraft eşyasını tahmin et!",
+        "start_help": "Başlamak için aşağıya yaz!"
+      },
+      "limited_attempts": {
+        "warning": {
+          "zero": "{{remaining}} tahmin hakkın kaldı!",
+          "one": "{{remaining}} tahmin hakkın kaldı!",
+          "two-four": "{{remaining}} tahmin hakkın kaldı!",
+          "many": "{{remaining}} tahmin hakkın kaldı!"
+        }
+      },
+      "search": {
+        "placeholder": {
+          "initial": "Bir eşya ara",
+          "new_tomorrow": "Yarın yeni eşya!",
+          "no_more_guesses": "Tahmin hakkın kalmadı!"
+        },
+        "submit": {
+          "aria_label": "Bu bloğu eşyayı"
+        },
+        "ambiguous_result": {
+          "description": "Ambiguous item discovered! Further incorrect ambiguous items will be crossed out in red.",
+          "image_alt": "Treasure hunter - close call"
+        }
+      },
+      "midnight_timer": {
+        "next_thing": "Bir sonrakini almak için sayfayı yenile!",
+        "next_in": "{{time}} sonra yeni eşya"
+      },
+      "yesterday_info": {
+        "description": "Dünün eşyası {{name}} idi!"
+      },
+      "next_game": {
+        "name": "Eşyalar",
+        "description": "Bugünün eşyasını tahmin etmeye var mısın?"
+      },
+      "quick_help": {
+        "look_for": "Hala daha iyi bir açıklama mı arıyorsun? Oyun simgesinin altındaki",
+        "tooltip": "Nasıl Oynanır",
+        "click_here": "ikonunu ara veya buraya tıkla!"
+      },
+      "help": {
+        "title": "Nasıl Oynanır",
+        "intro": {
+          "goal": "Bu oyunun amacı Minecraft eşyasını bilmek. Her gün yeni bir eşya seçilir ve günün eşyasını tahmin etmeye devam ederek bir galibiyet serisi yapabilirsin!",
+          "enter_guesses": "Arama kısmına herhangi bir eşya ismini yazarak başla. Aramana bağlı olarak 10 tane sonuç çıkacak. Bu eşyalardan herhangi birine tıkla veya ok tuşlarınla seç ve cevabını vermek için Enter tuşuna bas.",
+          "field_explanation": "Seçilen eşyanın özellikleri bugünün eşyasıyla karşılaştırılacak, eğer tamamen eşleşiyorsa yeşil, kısmen eşleşiyorsa sarı ve yanlış ise kırmızı olarak renklendirilecek. Ayrıca yanlış sayı/sürüm bölgelerinin arkasında daha yüksek mi yoksa alçak mı tahmin etmen konusunda bilgilendirek bir ok bulunur."
+        },
+        "example": {
+          "title": "Örnek",
+          "intro": "Hadi örnek bir oyuna bakalım. Önce herhangi bir blok deneyelim.",
+          "table_interpretation_1": "Öğrendik ki bu eşya diğerleri gibi 64'e kadar steklenebilir. Beta 1.2'den daha yeni, Yaygın nadirlikte, yenilebilir ve Minecraft wikiye göre 5'den daha az kullanım yolu, 6'dan az ise elde edilme yolu var. Envanter kategorisi bize \"Malzemeler\" kategorisinde bir Eşya aramadığımızı söylüyor. Hadi farklı bir eşya deniyelim.",
+          "table_interpretation_2": "Eşyanın sürümünü keşfettik! Şimdi Beta 1.8'de eklenmiş ve \"Yiyecekler ve İçecekler\" Yaratıcı Envanter Kategorisinde olan bir eşya arıyalım. Şimdi eşleşen kullanım şekilleri ve elde etme yollarına sahip olan bir eşya aramamız gerekiyor.",
+          "table_interpretation_3": "İşte böyle! Eşyanın karpuz dilimi olduğunu bulduk!"
+        },
+        "partial_matches": {
+          "title": "Kısmi Eşleşme açıklaması",
+          "intro": "Hadi kısmi eşleşmeye detaylıca göz gezdirelim, Çünkü büyük ihtimalle bu oyundaki en kafa karıştırıcı renk.",
+          "explanation": "Kısmi bir eşleşme yalnızca bir listeye sahip olan alanlarda oluşabilir (Envanter Kategorisi gibi). Eğer tahmin ettiğin eşya, asıl eşya ile en az bir tane aynı kategorideyse kısmi eşleşme olur. İşte ip için bir örnek:"
+        },
+        "tips": {
+          "title": "İpuçları",
+          "not_all_items": "MCdle her tür eşyayı içermez. Liste Minecraft wikiden alınmıştır ve bu yüzden tüm zırh/alet çeşitleri gibi, birçok bloğun eşya halini veya çok benzer eşyaları içermez.",
+          "utilize_the_search": "Arama kutusunu iyi kullan! Önerilere göz gezdirmek aramanı daraltmana yardımcı olacaktır.",
+          "use_the_wiki": "Minecraft wikisini kullanmaktan çekinme. Eşyanın sürümünü belirlediğin anda wikiyi kullanıp hangi eşyanın o sürümde eklendiğini bulabilirsin, böylece aramanı büyük oranda daraltabilirsin.",
+          "usage_and_source_explanation": "Eğer Kullanım sayısı/Kaynak sayısının nasıl hesaplandığını merak ediyorsan, eşyaların wiki sayfalarına bakıp, \"Elde etme\" ve \"Kullanım\" kısımlarına git. Bu bölümlerin başlıkları onların değişik kullanım şekillerini saymak için kullanılmıştır. Eğer eksik iseler, Ben, geliştiri, elle eklemişimdir."
+        }
+      }
+    },
+    "mob": {
+      "title": "Oyun modu: Bugünün Canlısını tahmin et!",
+      "sub_title_menus": {
+        "stats": {
+          "title": "İstatistikler",
+          "tooltip": "İstatistikler"
+        },
+        "streak": {
+          "title": "İlerlemeyi Aktar",
+          "tooltip": "Galibiyet Serisi"
+        },
+        "help": {
+          "tooltip": "Nasıl Oynanır"
+        },
+        "bestiary": {
+          "tooltip": "Ansiklopedi"
+        }
+      },
+      "table": {
+        "header": {
+          "title": "Canlı",
+          "initial_release": "Çıkış",
+          "health": "Sağlık",
+          "height": "Yükseklik",
+          "behavior": "Davranış",
+          "spawn": "Oluşma",
+          "classification": "Sınıf<wbr>landırma"
+        },
+        "data": {
+          "behavior": {
+            "passive": "Pasif",
+            "neutral": "Tarafsız",
+            "hostile": "Saldırgan",
+            "defensive": "Defansif"
+          },
+          "classification": {
+            "none": "Yok",
+            "animal": "Hayvan",
+            "aquatic": "Sucul",
+            "arthropod": "Eklembacaklı",
+            "undead": "Zombi",
+            "illager": "Yağmacı",
+            "golem": "Golem",
+            "boss": "Boss"
+          },
+          "spawn": {
+            "structure": "Yapı",
+            "spawner": "Çağırıcı",
+            "breeding": "Üreme",
+            "biome": "Biyom",
+            "light_level": "Işık Seviyesi",
+            "block": "Blok",
+            "grass": "Çimen",
+            "nether": "Nether",
+            "projectile": "Atılan Cisim",
+            "conversion": "Dönüştürme",
+            "lightning": "Yıldırım",
+            "the_end": "End",
+            "summon": "Çağırma",
+            "raids": "Baskın",
+            "command": "Komut",
+            "overworld": "Dünya",
+            "hatching": "Yumurtlama",
+            "jockey": "Binici",
+            "duplication": "Çoğaltma",
+            "magic": "Büyü",
+            "reinforcements": "Güçlendirme",
+            "sieges": "Kuşatma"
+          }
+        }
+      },
+      "loose": {
+        "title": "Bugünki canlıyı bulmayı başaramadın",
+        "subtitle": "Yarın bol şans! (veya ayarlardan tahmin sınırını kapat)"
+      },
+      "win": {
+        "title": "Canlı keşfedildi!",
+        "subtitle": "Bugünün canlısı {{name}} idi!"
+      },
+      "intro": {
+        "description": "Bugünün Minecraft canlısını tahmin et!",
+        "start_help": "Başlamak için aşağıya yaz!"
+      },
+      "limited_attempts": {
+        "warning": {
+          "zero": "{{remaining}} tahmin hakkın kaldı!",
+          "one": "{{remaining}} tahmin hakkın kaldı!",
+          "two-four": "{{remaining}} tahmin hakkın kaldı!",
+          "many": "{{remaining}} tahmin hakkın kaldı!"
+        }
+      },
+      "search": {
+        "placeholder": {
+          "initial": "Bir canlı ara",
+          "new_tomorrow": "Yarın yeni canlı!",
+          "no_more_guesses": "Tahmin hakkın kalmadı!"
+        },
+        "submit": {
+          "aria_label": "Bu canlıyı dene"
+        },
+        "ambiguous_result": {
+          "description": "Ambiguous mob discovered! Further incorrect ambiguous mobs will be crossed out in red. [TODO]",
+          "image_alt": "Treasure hunter - close call [TODO]"
+        }
+      },
+      "midnight_timer": {
+        "next_thing": "Bir sonrakini almak için sayfayı yenile!",
+        "next_in": "{{time}} sonra yeni canlı"
+      },
+      "yesterday_info": {
+        "description": "Dünün canlı {{name}} idi!"
+      },
+      "next_game": {
+        "name": "Canlılar",
+        "description": "Bugünün canlısını tahmin etmeye var mısın?"
+      },
+      "quick_help": {
+        "look_for": "Hala daha iyi bir açıklama mı arıyorsun? Oyun simgesinin altındaki",
+        "tooltip": "Nasıl Oynanır",
+        "click_here": "ikonunu ara veya buraya tıkla!"
+      },
+      "help": {
+        "title": "Nasıl Oynanır",
+        "intro": {
+          "goal": "Bu oyunun amacı Minecraft canlısını bilmek. Her gün yeni bir canlı seçilir ve günün canlısını tahmin etmeye devam ederek bir galibiyet serisi yapabilirsin!",
+          "enter_guesses": "Arama kısmına herhangi bir canlının ismini yazarak başla. Aramana bağlı olarak 10 tane sonuç çıkacak. Bu canlılardan herhangi birine tıkla veya ok tuşlarınla seç ve cevabını vermek için Enter tuşuna bas.",
+          "field_explanation": "Seçilen canlının özellikleri bugünün canlısıyla karşılaştırılacak, eğer tamamen eşleşiyorsa yeşil, kısmen eşleşiyorsa sarı ve yanlış ise kırmızı olarak renklendirilecek. Ayrıca yanlış sayı/sürüm bölgelerinin arkasında daha yüksek mi yoksa alçak mı tahmin etmen konusunda bilgilendirek bir ok bulunur."
+        },
+        "example": {
+          "title": "Örnek",
+          "intro": "Hadi örnek bir oyuna bakalım. Önce herhangi bir canlı deneyelim.",
+          "table_interpretation_1": "Bu tahmine göre, 1.6.1'den sonra eklenmiş bir canlıyı arıyoruz ayrıca çok fazla canı yok ve 1.6 bloktan kısa. Pasif, saldırgan veya ikisinin karışımı olabilir. Yıldırım ile çağırılmıyor ve Zombi de değil.",
+          "table_interpretation_2": "Peki, hala 1.13'den yeni ama canını bulduk: 10HP veya 5 kalbe sahip bir canlı arıyoruz. 0.6 bloktan daha kısa, yani küçük bir canlı arıyoruz. Canlının davranışı hala kısmi eşleşme, bu yüzden büyük ihtimalle pasif ama hala saldırgan ve tarafsız olabilir. Hem doğma hem de sınıflandırma kısmında kısmi eşleşme var, yani canlının doğma bölgeleri biyom ve başka bir şey olabilir, ve bu canlı ya hayvan ya da sucul olarak sınıflandırılabilir. Belki bu iki olasılığa ek olarak başka bir şey daha olabilir.",
+          "table_interpretation_3": "İşte böyle! Bak bu öğreticiye kim atladı. Küçük bir kurbağa bulduk!"
+        },
+        "partial_matches": {
+          "title": "Kısmi Eşleşme açıklaması",
+          "intro": "Hadi kısmi eşleşmeye detaylıca göz gezdirelim, Çünkü büyük ihtimalle bu oyundaki en kafa karıştırıcı renk.",
+          "explanation": "Kısmi bir eşleşme yalnızca bir listeye sahip olan alanlarda oluşabilir (Oluşma, sınıflandırma, veya davranış alanları gibi). Eğer tahmin ettiğin canlı, asıl canlı ile en az bir tane aynı kategorideyse kısmi eşleşme olur. İşte at için bir örnek:"
+        },
+        "tips": {
+          "title": "İpuçları",
+          "not_all_blocks": "MCdle her varlık türünü içermez. Zombi veya domuz gibi sadece yaşayan canlılar dahildir. Zırh askısı, fırlatılabilen cisimler, veya benzer yaşamayan varlıklar dahil değildir. Liste Minecraft Wikiden alınmıştır. Eğer orda canlı listesinde yoksa oyunda değildir.",
+          "utilize_the_search": "Arama kutusunu iyi kullan! Önerilere göz gezdirmek aramanı daraltmana yardımcı olacaktır.",
+          "use_the_wiki": "Minecraft wikisini kullanmaktan çekinme. Canlının sürümünü belirlediğin anda wikiyi kullanıp hangi canlının o sürümde eklendiğini bulabilirsin, böylece aramanı büyük oranda daraltabilirsin.",
+          "health_measuring": "Sağlığın sağlık puanları, yani yarım kalplerle ölçüldüğünü unutmayın; yani 10HP, 5 kalbe eşittir."
+        }
+      }
+    },
+    "crafting": {
+      "title": "Oyun modu: Tarif Kovanı [TODO]",
+      "sub_title_menus": {
+        "stats": {
+          "title": "İstatistikler",
+          "tooltip": "İstatistikler"
+        },
+        "streak": {
+          "title": "İlerlemeyi Aktar",
+          "tooltip": "Galibiyet Serisi"
+        },
+        "help": {
+          "tooltip": "Nasıl Oynanır"
+        },
+        "bestiary": {
+          "tooltip": "Ansiklopedi"
+        },
+        "editor": {
+          "tooltip": "Editör"
+        }
+      },
+      "regular": {
+        "notifications": {
+          "already_crafted": "Eşya zaten yapıldı!",
+          "other_game_running": {
+            "description": "Kaydedilmiş başka bir oyunun var ama özel bir link ile yeni bir tane oynamaya çalışıyorsun",
+            "prev_game": "Kaydedilmiş oyunun:",
+            "prev_game_discovered": "Çoktan {{discoveredCount}}/{{availableRecipes}} keşfedildi.",
+            "overwrite": "Üzerine Yaz",
+              "return": "Kaydedilmiş oyuna geri dön"
+          }
+        },
+        "copy_message": {
+          "timer": {
+            "all": {
+              "long": "Aşağıdaki #MCdle #CraftingBee bulmacasında {{discoveredCount}} tarifin hepsini {{time}} içerisinde buldum!",
+              "short": "{{discoveredCount}} tarifin hepsini {{time}} içinde buldum #MCdle #CraftingBee"
+            },
+            "partial": {
+              "long": "I have managed to discover {{discoveredCount}}/{{availableRecipes}} recipes in {{time}} in the following #MCdle #CraftingBee riddle! [TODO] ", 
+              "short": "I found {{discoveredCount}}/{{availableRecipes}} recipes in {{time}} #MCdle #CraftingBee [TODO]"
+            }
+          },
+          "no_timer": {
+            "all": {
+              "long": "I have discovered all {{discoveredCount}} recipes in the following #MCdle #CraftingBee riddle! [TODO]",
+              "short": "I found all {{discoveredCount}} recipes in this #MCdle #CraftingBee [TODO]"
+            },
+            "partial": {
+              "long": "I have managed to discover {{discoveredCount}}/{{availableRecipes}} recipes in the following #MCdle #CraftingBee riddle! [TODO]",
+              "short": "I found {{discoveredCount}}/{{availableRecipes}} recipes in this #MCdle #CraftingBee [TODO]"
+            }
+          },
+          "copy_button": {
+            "copy": "Bulmacayı Kopyala",
+            "copied": "Kopyalandı!"
+          },
+          "share_button": {
+            "share": "Bulmacayı Paylaş",
+            "shared": "Paylaşıldı!"
+          }
+        },
+        "game_state_box": {
+          "start_playing": "Begin by clicking/dragging items from below into the crafting grid! [TODO]",
+          "discover_status": "{{discoveredCount}}/{{availableRecipes}} Keşfedildi",
+          "timer": "{{remainingTime}}"
+        },
+        "game_complete_box": {
+          "congrats": "Tebrikler!",
+          "discovered": "Mevcut eşyalarla {{discoveredCount}} tarifin hepsini keşfettin!",
+          "discovered_time": "Mevcut eşyalarla {{discoveredCount}} tarifin hepsini {{time}} içinde keşfettin!",
+          "regenerate": {
+            "description": "Oyunu sıfırlamak ve yeni eşyalar almak için aşağıdaki butona tıkla.",
+            "button": "Yenile",
+            "popup": {
+              "title": "Yeni rastgele eşyalar?",
+              "hints": "Kalan tarif ipuçlarını göster?",
+              "description": "Altıgenlerdeki rastgeleleştirmek ve yeni bir oyuna başlamak için aşağı tıkla!",
+              "confirm": "Onayla"
+            }
+          },
+          "more_crafting_riddles": "veya ",
+          "discord_link": "Discord",
+          "more_crafting_riddles_2": "umuzda özel yapılanları bul!",
+          "replay": {
+            "button": "Tekrar Oyna",
+            "popup": {
+              "title": "Yeniden oyna?",
+              "description": "Aynı eşyalarla oyunu yeniden oynamak için aşağıya tıkla"
+            }
+          }
+        },
+        "tools": {
+          "eraser": "Silgi",
+          "clear": {
+            "button": "Temizle",
+            "popup": {
+              "title": "Çalışma masasını temizle?",
+              "description": "Çalışma masaından tüm eşyaları kaldırmak için aşağıya tıkla.",
+              "confirm": "Onayla"
+            }
+          }
+        },
+        "quick_settings": {
+          "hints": "Kalan tarif ipuçlarını göster",
+          "timer": "Kronometre",
+          "regenerate": "Yeni bulmaca oluştur",
+          "auto_craft": "Otomatik Üret"
+        },
+        "try_editor": "Check out the editor! [TODO]"
+      },
+      "daily": {
+        "title": "Crafting Bee Daily [TODO]",
+        "description": "Her gün rastgele 7 eşya seçilir. Onlarla üretilebilen tüm eşyaları hatırlayabilir misin?",
+        "game_complete_box": {
+          "more_tomorrow": "Yarın yeni bir bulmaca için geri gel ya da ",
+          "infinite_link": "sınırsızca",
+          "more_tomorrow_2": " oyna!",
+          "more_crafting_riddles": "Ayrıca ",
+          "discord_link": "Discord",
+          "more_crafting_riddles_2": "umuzda başkaları tarafından hazırlanmış bulmacalar bulabilirsin!"
+        }
+      },
+      "index": {
+        "daily": {
+          "title": "Günlük",
+          "description": "Her gün 7 eşya, seriler dahil"
+        },
+        "regular": {
+          "title": "Sınırsız",
+          "description": "7 eşya, özel oyunlarla sınırsız yeniden oynanış ve randomizasyon [TODO]."
+        },
+        "editor": {
+          "title": "Editor [TODO]",
+          "description": "Create your own Crafting Bee riddles! [TODO]"
+        }
+      },
+      "editor": {
+        "title": "Crafting Bee Editor [TODO]",
+        "description": "Editor for the Crafting Bee gamemode [TODO]",
+        "share_creation": {
+          "before_link": "Yaptığını ",
+          "link": "Discord",
+          "after_link": "umuzda paylaş!"
+        },
+        "test_creation": {
+          "before_link": "Bitirdiğinde ",
+          "link": "bulmacanı test et",
+          "after_link": "veya"
+        },
+        "copy_creation": {
+          "copy": "Bulmaca bağlantısını kopyala",
+          "copied": "Kopyalandı!"
+        },
+        "search_items": "Eşya ara...",
+        "table": {
+          "header": {
+            "item": "Eşya",
+            "individual_usage": "Tekil Kullanım",
+            "recipes_with_item": "Kullanan Tarif"
+          }
+        },
+        "found_recipes": "{{count}} tarif bulundu",
+        "delete_item": "Sil",
+        "import": {
+          "title": "Oyunu içe aktar",
+          "unlimited_button": "Sınırsız Oyunu İçe Aktar",
+          "popup": {
+            "title": "Sınırsız Moddan Oyun İçe Aktar?",
+            "description": "Sınırsız moddan şu anki oyunu içe aktarmak için aşağıya tıkla. Bu şu anki düzenleyici [TODO] ilerlemenin üzerine yazacaktır.",
+            "confirm": "Onayla"
+          }
+        },
+        "return_to_unlimited": "Oyuna geri dön!"
+      },
+      "midnight_timer": {
+        "next_thing": "Sıradakini almak için sayfayı yenile!",
+        "next_in": "{{time}} içinde yeni malzemeler"
+      },
+      "next_game": {
+        "name": "Crafting Bee [TODO]",
+        "description": "Bugünün malzemeleriyle üretilebilen tüm eşyaları hatırlayabilir misin?"
+      },
+      "help": {
+        "title": "Nasıl Oynanır",
+        "intro": {
+          "goal": "Bu oyunun amacı altıgenlerde verilen 7 eşyala üretebileceğin tüm eşyaları üretmek. Bu oyun modunun hem günlük modu hem de düzenleyicisi olan bir sınırsız mode sahip. Günlük modu tamamlayarak kazanma serisi oluşturabilirsin. By playing unlimited, you get to learn how to play the game, recipes, and play riddles that other players created using the editor!",
+          "entering_items": "To begin playing, select an item in the hexagons and then click a slot in the crafting table grid, where clicking multiple slots will \"paint\" these slots. Repeat this process until you see your desired recipe in the output slot. Then, click the resulting item to craft! Alternatively, you can also drag-and-drop items from the hexagons or from one slot to another. Additionally, you could also be a \"Keyboard Wizard\" and select the hexagons with the number keys, WASD or arrow keys for the crafting table slots, Space to place, and Enter to craft. Keybinds can be configured in the settings located to the left of the MCdle title."
+        },
+        "example": {
+          "title": "Example",
+          "intro": "Let's look at some examples! From a single diamond, we can craft 5 individual items!",
+          "try_example": "Try this example",
+          "hint_info": "Feeling stuck? You can enable hints in the box below the delete/clear buttons. The hints will appear above the individual hexagons and tell you how many items you have remaining to craft with that ingredient! From there, you can visit the",
+          "mc_wiki": "Minecraft Wiki",
+          "hint_info_2": "to look up recipes.",
+          "test_hints": "Test toggling the hint system"
+        },
+        "tips": {
+          "title": "Tips",
+          "individual_results_only": "The game only counts individual results, not individual recipes. For example, both bamboo and planks make sticks, but once you crafted sticks with either, that's it!",
+          "where_help": "Use the hint system if you are stuck. The wiki pairs well with it, just search for the item you are missing!",
+          "not_all_recipes": "Crafting Bee does not contain every craftable recipe. Only standard shaped and shapeless recipes inside the crafting table are included. Non standard recipes, like custom fireworks, decorated pots, or similar are not included."
+        }
+      }
+    },
+    "bestiary": {
+      "index": {
+        "title": "Bestiary",
+        "books": {
+          "blocks": {
+            "title": "The Book of Blocks",
+            "cover_alt_text": "Block Book Cover"
+          },
+          "items": {
+            "title": "The Book of Items",
+            "cover_alt_text": "Item Book Cover"
+          },
+          "mobs": {
+            "title": "The Book of Mobs",
+            "cover_alt_text": "Mob Book Cover"
+          },
+          "crafting": {
+            "title": "The Book of Crafting",
+            "cover_alt_text": "Crafting Bee Book Cover"
+          }
+        }
+      },
+      "blocks": {
+        "title": "Block Bestiary",
+        "description": "For all the Blocks you might encounter in MCdle."
+      },
+      "items": {
+        "title": "Item Bestiary",
+        "description": "For all the Items you might encounter in MCdle."
+      },
+      "mobs": {
+        "title": "Mob Bestiary",
+        "description": "For all the Mobs you might encounter in MCdle."
+      },
+      "crafting": {
+        "title": "Crafting Bee Bestiary",
+        "description": "For all the items you can craft in MCdle's Crafting Bee.",
+        "entry": {
+          "discovered": {
+            "label": "Discovered in",
+            "daily": "Daily Challenge",
+            "random": "Random Game",
+            "custom": "Custom Game"
+          },
+          "recipes": {
+            "label": "Recipes"
+          }
+        },
+        "filters": {
+          "unavailable": "There are currently no filters available."
+        }
+      },
+      "generic": {
+        "overview": {
+          "title": "Overview",
+          "library_back": "Back to library",
+          "explanation": "Click on an entry to view its page, use the search icon in the top right to find one, or apply filters that apply to the entire page (not just the search results).",
+          "sorting": {
+            "alphabet_tooltip": "Sort alphabetically",
+            "alphabet_alt": "A-Z Sort",
+            "release_tooltip": "Sort by release",
+            "release_alt": "Release Sort"
+          }
+        },
+        "entry": {
+          "overview_back": "Overview",
+          "not_found": "Norbert didn't find any matching entries in your discovered list =(",
+          "try_different": "Try different filters!",
+          "discovered": {
+            "first_discovered": "First discovered:",
+            "in": "in",
+            "and": "and",
+            "more": "more!"
+          }
+        },
+        "filters": {
+          "applied": "Filters applied",
+          "search_placeholder": "Search",
+          "search_alt": "Search icon",
+          "clear": "Clear Filters",
+          "open": "Filters (Global)",
+          "min": "Min",
+          "max": "Max"
+        }
+      }
+    }
+  },
+  "components": {
+    "quick_help": {
+      "show_button": "Show quick help",
+      "color_explanation": {
+        "title": "Color explanation",
+        "correct": "Correct Field",
+        "incorrect": "Incorrect Field",
+        "partial": "Partially correct Field"
+      }
+    },
+    "stats": {
+      "copy_button": "Copy",
+      "copied_confirmation": "Copied!",
+      "share": "Share",
+      "copy_message": {
+        "header_block": "My #MCdle block statistics 🏆",
+        "header_item": "My #MCdle item statistics 🏆",
+        "header_mob": "My #MCdle mob statistics 🏆",
+        "total_wins": "🎉 Games Won {{number}}",
+        "average_guesses": "🧮 Average Guesses {{number}}",
+        "one_shots": "🎯 One-Shots {{number}}",
+        "current_streak": "🚀 Current Streak {{number}}",
+        "max_streak": "📈 Max Streak {{number}}"
+      },
+      "stat_labels": {
+        "total_wins": "Games Won",
+        "average_guesses": "Average Guesses",
+        "one_shots": "One-Shots",
+        "current_streak": "Current Streak",
+        "max_streak": "Max Streak"
+      },
+      "chart_labels": {
+        "guesses": "Guesses"
+      }
+    },
+    "today_guesses": {
+      "loading": "Loading player guesses...",
+      "already_guessed": {
+        "zero": "players already guessed correctly!",
+        "one": "player already guessed correctly!",
+        "two-four": "players already guessed correctly!",
+        "many": "players already guessed correctly!"
+      }
+    },
+    "share_win": {
+      "copy_button": "Copy",
+      "copied_confirmation": "Copied!",
+      "share": "Share",
+      "all_games": "All Games",
+      "guess_type": {
+        "block": "block",
+        "item": "item",
+        "mob": "mob"
+      },
+      "guess_line": {
+        "one": "I discovered {{date}}'s #MCdle {{type}} in {{number}} try! {{emoji}}",
+        "many": "I discovered {{date}}'s #MCdle {{type}} in {{number}} tries! {{emoji}}"
+      },
+      "short_guess_line": {
+        "intro": "I discovered {{date}}'s #MCdle ",
+        "one": "{{type}} in {{number}} try",
+        "many": "{{type}} in {{number}} tries",
+        "conjunction": " and "
+      }
+    },
+    "hints": {
+      "in_x_guesses": {
+        "one": "in {{number}} guess!",
+        "many": "in {{number}} guesses!"
+      },
+      "version": {
+        "description": "Release version hint",
+        "solution": "You're looking for a {{version}} release!"
+      },
+      "letter": {
+        "description": "Starting letter hint",
+        "solution": "The solution starts with {{letter}}..."
+      },
+      "image": {
+        "description": "Zoomed image hint",
+        "solution": "Can you see what's hiding in this 8x zoomed in image?"
+      }
+    },
+    "toasts": {
+      "patchnotes": {
+        "live": " are now live! Check them out!"
+      }
+    }
+  },
+  "blocks": {
+    "button": "Düğme",
+    "door": "Kapı",
+    "fence": "Çit",
+    "fence_gate": "Çit Kapısı",
+    "leaves": "Yapraklar",
+    "log": "Kütük",
+    "planks": "Tahta",
+    "pressure_plate": "Basınç Plakası",
+    "sapling": "Fidan",
+    "shelf": "Raf",
+    "sign": "Tabela",
+    "slab": "Basamak",
+    "stairs": "Merdiven",
+    "trapdoor": "Tuzak Kapısı",
+    "wood": "Odun",
+    "activator_rail": "Etkinleştirici Ray",
+    "flower": "Çiçek",
+    "amethyst_block": "Ametist Bloğu",
+    "amethyst_cluster": "Ametist Demeti",
+    "ancient_debris": "Antik Kalıntı",
+    "andesite": "Andezit",
+    "wall": "Duvar",
+    "anvil": "Örs",
+    "azalea": "Açelya",
+    "bamboo": "Bambu",
+    "bamboo_block": "Bambu Bloğu",
+    "bamboo_mosaic": "Bambu Mozaik",
+    "barrel": "Fıçı",
+    "barrier": "Bariyer",
+    "basalt": "Bazalt",
+    "beacon": "Fener",
+    "bedrock": "Katman Kayası",
+    "bee_nest": "Arı Yuvası",
+    "beehive": "Arı Kovanı",
+    "beetroots": "Pancarlar",
+    "bell": "Çan",
+    "big_dripleaf": "Büyük Damla Yaprağı",
+    "banner": "Sancak",
+    "bed": "Yatak",
+    "candle": "Mum",
+    "carpet": "Halı",
+    "concrete": "Beton",
+    "concrete_powder": "Çimento",
+    "glazed_terracotta": "Sırlanmış  Terakota",
+    "shulker_box": "Shulker Kutusu",
+    "glass": "Cam",
+    "glass_pane": "İnce Cam",
+    "terracotta": "Terakota",
+    "wool": "Yün",
+    "blackstone": "Kara Taş",
+    "blast_furnace": "Maden Eritme Ocağı",
+    "blue_ice": "Mavi Buz",
+    "bone_block": "Kemik Bloğu",
+    "bookshelf": "Kitaplık",
+    "coral": "Mercanı",
+    "coral_block": "Mercan Bloğu",
+    "coral_fan": "Yelpaze Mercanı",
+    "brewing_stand": "İksir Tezgâhı",
+    "bricks": "Tuğla",
+    "mushroom": "Mantar",
+    "mushroom_block": "Mantar Bloğu",
+    "bush": "Çalı",
+    "cactus": "Kaktüs",
+    "cactus_flower": "Kaktüs Çiçeği",
+    "cake": "Pasta",
+    "calcite": "Kireç Taşı",
+    "calibrated_sculk_sensor": "Ayarlanmış Sculk Sensörü",
+    "campfire": "Kamp Ateşi",
+    "carrots": "Havuçlar",
+    "cartography_table": "Haritacı Masası",
+    "cauldron": "Kazan",
+    "cave_vines": "Mağara Sarmaşığı",
+    "chain": "Zincir",
+    "chest": "Sandık",
+    "chiseled_bookshelf": "Yontulmuş Kitaplık",
+    "chorus_flower": "Nakarat Çiçeği",
+    "chorus_plant": "Nakarat Bitkisi",
+    "clay": "Kil",
+    "eyeblossom": "Göz Çiçeği",
+    "coal_block": "Kömür Bloğu",
+    "coal_ore": "Kömür Cevheri",
+    "coarse_dirt": "İri Taneli Toprak",
+    "cobbled_deepslate": "Kırık Kayrak Taşı",
+    "cobblestone": "Kırık Taş",
+    "cobweb": "Örümcek Ağı",
+    "cocoa": "Kakao",
+    "command_block": "Komut Bloğu",
+    "comparator": "Redstone Karşılaştırıcı",
+    "composter": "Gübre Varili",
+    "conduit": "Oluk",
+    "copper_block": "Bakır Bloğu",
+    "copper_bulb": "Bakır Ampul",
+    "copper_chest": "Bakır Sandık",
+    "copper_door": "Bakır Kapı",
+    "copper_golem_statue": "Bakır Golem Heykeli",
+    "copper_grate": "Bakır Izgara",
+    "copper_ore": "Bakır Cevheri",
+    "copper_trapdoor": "Bakır Tuzak Kapısı",
+    "crafter": "Üretici",
+    "crafting_table": "Çalışma Masası",
+    "creaking_heart": "Gıcırtı Kalbi",
+    "head": "Kafa",
+    "fungus": "Mantar",
+    "nylium": "Niselyum",
+    "roots": "Kök",
+    "crying_obsidian": "Ağlayan Obsidiyen",
+    "daylight_detector": "Gün Işığı Algılayıcısı",
+    "dead_bush": "Ölü Çalı",
+    "decorated_pot": "Süslü Çömlek",
+    "deepslate": "Kayrak Taşı",
+    "detector_rail": "Algılayıcı Ray",
+    "diamond_block": "Elmas Bloğu",
+    "diamond_ore": "Elmas Cevheri",
+    "diorite": "Diyorit",
+    "dirt": "Toprak",
+    "dirt_path": "Toprak Yol",
+    "dispenser": "Fırlatıcı",
+    "dragon_egg": "Ejderha Yumurtası",
+    "dried_ghast": "Kurumuş Ghast",
+    "dried_kelp_block": "Kurutulmuş Su Yosunu Bloğu",
+    "dripstone_block": "Damla Taş Bloğu",
+    "dropper": "Bırakıcı",
+    "emerald_block": "Zümrüt Bloğu",
+    "emerald_ore": "Zümrüt Cevheri",
+    "enchanting_table": "Büyü Masası",
+    "end_portal_frame": "End Geçidi Çerçevesi",
+    "end_rod": "End Çubuğu",
+    "end_stone": "End Taşı",
+    "end_stone_bricks": "End Taşı Tuğlası",
+    "ender_chest": "Ender Sandığı",
+    "farmland": "Tarım Arazisi",
+    "fern": "Eğrelti otu",
+    "fire": "Ateş",
+    "firefly_bush": "Ateş Böceği Çalısı",
+    "fletching_table": "Okçu Masası",
+    "flower_pot": "Saksı",
+    "frogspawn": "Kurbağa Yumurtaları",
+    "furnace": "Ocak",
+    "glow_lichen": "Parlayan Liken",
+    "glowstone": "Işık Taşı",
+    "gold_block": "Altın Bloğu",
+    "gold_ore": "Altın Cevheri",
+    "golden_dandelion": "Altın Karahindiba",
+    "granite": "Granit",
+    "grass_block": "Çimenli Toprak",
+    "gravel": "Çakıl",
+    "grindstone": "Bileme Taşı",
+    "hanging_roots": "Sarkan Kökler",
+    "hay_block": "Saman Balyası",
+    "heavy_core": "Ağır Çekirdek",
+    "heavy_weighted_pressure_plate": "Sert Ağırlıklı Basınç Plakası",
+    "honey_block": "Bal Bloğu",
+    "honeycomb_block": "Bal Peteği Bloğu",
+    "hopper": "Huni",
+    "ice": "Buz",
+    "infested_block": "İstila Edilmiş Blok",
+    "iron_bars": "Demir Parmaklık",
+    "iron_block": "Demir Bloğu",
+    "iron_door": "Demir Kapı",
+    "iron_ore": "Demir Cevheri",
+    "iron_trapdoor": "Demir Tuzak Kapısı",
+    "jack_o_lantern": "Bal Kabağı Lambası",
+    "jigsaw": "Yapboz Bloğu",
+    "jukebox": "Müzik Kutusu",
+    "kelp": "Su Yosunu",
+    "ladder": "Merdiven",
+    "lantern": "Fener",
+    "lapis_block": "Lapis Lazuli Bloğu",
+    "lapis_ore": "Lapis Lazuli Cevheri",
+    "leaf_litter": "Kuru Yapraklar",
+    "lectern": "Kürsü",
+    "lever": "Şalter",
+    "light": "Işık",
+    "lightning_rod": "Paratoner",
+    "lily_pad": "Nilüfer Yaprağı",
+    "lodestone": "Manyetit",
+    "loom": "Dokuma Tezgâhı",
+    "magma_block": "Magma Bloğu",
+    "mangrove_propagule": "Mangrov Tohumu",
+    "mangrove_roots": "Mangrov Kökleri",
+    "melon": "Karpuz",
+    "melon_stem": "Karpuz Sapı",
+    "moss_block": "Yosun Bloğu",
+    "moss_carpet": "Yosun Halı",
+    "mossy_cobblestone": "Yosunlu Kırık Taş",
+    "mud": "Çamur",
+    "mud_bricks": "Kerpiç",
+    "muddy_mangrove_roots": "Çamurlu Mangrov Kökleri",
+    "mycelium": "Miselyum",
+    "nether_bricks": "Nether Tuğlası",
+    "nether_gold_ore": "Nether Altın Cevheri",
+    "nether_quartz_ore": "Nether Kuvarsı Cevheri",
+    "nether_sprouts": "Nether Filizleri",
+    "nether_wart": "Nether Yumrusu",
+    "nether_wart_block": "Nether Yumrusu Bloğu",
+    "netherite_block": "Netherit Bloğu",
+    "netherrack": "Netherrack",
+    "note_block": "Nota Bloğu",
+    "observer": "Gözlemci",
+    "obsidian": "Obsidiyen",
+    "froglight": "Kurbağa Işığı",
+    "packed_ice": "Sert Buz",
+    "packed_mud": "Kerpiç",
+    "pale_hanging_moss": "Soluk Sarkan Yosun",
+    "pale_moss_block": "Soluk Yosun Bloğu",
+    "pale_moss_carpet": "Soluk Yosun Halı",
+    "petrified_oak_slab": "Taşlaşmış Meşe Basamak",
+    "pink_petals": "Pembe Yapraklar",
+    "piston": "Piston",
+    "pitcher_crop": "Sürahi Ekini",
+    "pitcher_plant": "Sürahi Bitkisi",
+    "podzol": "Podzol",
+    "pointed_dripstone": "Sivri Damla Taş",
+    "polished_blackstone": "Cilalı Kara Taş",
+    "potatoes": "Patatesler",
+    "powder_snow": "Tozlaşmış Kar",
+    "powered_rail": "Elektrikli Ray",
+    "prismarine": "Prizmarin",
+    "pumpkin": "Bal Kabağı",
+    "pumpkin_stem": "Bal Kabağı Sapı",
+    "purpur_block": "Purpur Bloğu",
+    "quartz_block": "Kuvars Bloğu",
+    "rail": "Ray",
+    "raw_copper_block": "Ham Bakır Bloğu",
+    "raw_gold_block": "Ham Altın Bloğu",
+    "raw_iron_block": "Ham Demir Bloğu",
+    "redstone_block": "Redstone Bloğu",
+    "redstone_lamp": "Redstone Lambası",
+    "redstone_ore": "Redstone Cevheri",
+    "redstone_torch": "Redstone Meşalesi",
+    "redstone_wire": "Redstone Kablosu",
+    "reinforced_deepslate": "Güçlendirilmiş Kayrak Taşı",
+    "repeater": "Redstone Yineleyici",
+    "resin_block": "Reçine Bloğu",
+    "resin_bricks": "Reçine Tuğla",
+    "resin_clump": "Reçine Yığını",
+    "respawn_anchor": "Diriltici",
+    "rooted_dirt": "Köklenmiş Toprak",
+    "sand": "Kum",
+    "sandstone": "Kum Taşı",
+    "scaffolding": "İskele",
+    "sculk": "Sculk",
+    "sculk_catalyst": "Sculk Katalizörü",
+    "sculk_sensor": "Sculk Sensörü",
+    "sculk_shrieker": "Sculk Çığırtkanı",
+    "sculk_vein": "Sculk Damarı",
+    "sea_lantern": "Deniz Feneri",
+    "sea_pickle": "Pirozom",
+    "seagrass": "Deniz Otu",
+    "dry_grass": "Kuru Çimen",
+    "short_grass": "Kısa Çimen",
+    "shroomlight": "Mantarışığı",
+    "slime_block": "Balçık Bloğu",
+    "small_dripleaf": "Küçük Damla Yaprağı",
+    "smithing_table": "Demirci Masası",
+    "smoker": "Duman Fırını",
+    "smooth_quartz": "Düz Kuvars Bloğu",
+    "smooth_stone": "Düz Taş",
+    "sniffer_egg": "Koklarca Yumurtası",
+    "snow": "Kar",
+    "snow_block": "Kar Bloğu",
+    "soul_sand": "Ruh Kumu",
+    "soul_soil": "Ruh Toprağı",
+    "spawner": "Canavar Çağırıcı",
+    "sponge": "Sünger",
+    "spore_blossom": "Spor Çiçeği",
+    "stone": "Taş",
+    "stone_bricks": "Taş Tuğlası",
+    "stonecutter": "Taş Yontma Makinesi",
+    "structure_block": "Yapı Bloğu",
+    "structure_void": "Yapı Boşluğu",
+    "sugar_cane": "Şeker Kamışı",
+    "suspicious_gravel": "Şüpheli Çakıl",
+    "sweet_berry_bush": "Tatlı Orman Meyvesi Çalısı",
+    "target": "Hedef",
+    "test_block": "Test Bloğu",
+    "test_instance_block": "Test Birim Bloğu",
+    "tinted_glass": "Gölgeli Cam",
+    "tnt": "TNT",
+    "torch": "Meşale",
+    "torchflower": "Meşale Çiçeği",
+    "trapped_chest": "Tuzaklı Sandık",
+    "trial_spawner": "Sınama Çağırıcısı",
+    "tripwire": "Tuzak İpi",
+    "tripwire_hook": "Tuzak Kancası",
+    "tuff": "Tüf",
+    "turtle_egg": "Kaplumbağa Yumurtası",
+    "twisting_vines": "Bükük Sarmaşık",
+    "vault": "Kasa",
+    "vine": "Sarmaşık",
+    "warped_wart_block": "Çarpık Yumru Bloğu",
+    "weeping_vines": "Ağlayan Sarmaşık",
+    "wheat": "Buğday Ekini",
+    "wildflowers": "Kır Çiçekleri",
+    "wither_rose": "Wither Gülü"
+  },
+  "items": {
+    "boat": "Tekne",
+    "chest_boat": "Sandıklı Tekne",
+    "spawn_egg": "Çağırma Yumurtası",
+    "amethyst_shard": "Ametist Parçası",
+    "pottery_sherd": "Çömlek Parçası",
+    "apple": "Elma",
+    "armadillo_scute": "Armadillo Pulu",
+    "armor_stand": "Zırh Askısı",
+    "arrow": "Ok",
+    "aquatic_mob_bucket": "Suda Yaşayan Canlı Kovası",
+    "baked_potato": "Pişmiş Patates",
+    "beef": "Çiğ İnek Eti",
+    "beetroot": "Pancar",
+    "beetroot_seeds": "Pancar Tohumu",
+    "beetroot_soup": "Pancar Çorbası",
+    "blaze_powder": "Blaze Tozu",
+    "blaze_rod": "Blaze Çubuğu",
+    "bone": "Kemik",
+    "bone_meal": "Kemik Tozu",
+    "book": "Kitap",
+    "bow": "Yay",
+    "bowl": "Kâse",
+    "bread": "Ekmek",
+    "breeze_rod": "Esinti Çubuğu",
+    "brick": "Tuğla",
+    "brush": "Fırça",
+    "bucket": "Kova",
+    "bundle": "Kese",
+    "carrot": "Havuç",
+    "carrot_on_a_stick": "Havuçlu Olta",
+    "charcoal": "Odun Kömürü",
+    "chest_minecart": "Sandıklı Vagon",
+    "chicken": "Çiğ Tavuk Eti",
+    "chorus_fruit": "Nakarat Meyvesi",
+    "clay_ball": "Kil Topu",
+    "clock": "Saat",
+    "coal": "Kömür",
+    "armor_trim_smithing_template": "Zırh Süslemesi",
+    "cocoa_beans": "Kakao Çekirdekleri",
+    "cod": "Çiğ Morina",
+    "command_block_minecart": "Komut Bloklu Vagon",
+    "compass": "Pusula",
+    "cooked_beef": "Biftek",
+    "cooked_chicken": "Pişmiş Tavuk Eti",
+    "cooked_cod": "Pişmiş Morina",
+    "cooked_mutton": "Pişmiş Koyun Eti",
+    "cooked_porkchop": "Pişmiş Domuz Pirzolası",
+    "cooked_rabbit": "Pişmiş Tavşan Eti",
+    "cooked_salmon": "Pişmiş Somon",
+    "cookie": "Kurabiye",
+    "copper_ingot": "Bakır Külçesi",
+    "copper_nugget": "Bakır Parçası",
+    "banner_pattern": "Sancak Deseni",
+    "crossbow": "Arbalet",
+    "dye": "Boya",
+    "debug_stick": "Hata Ayıklama Çubuğu",
+    "diamond": "Elmas",
+    "axe": "Balta",
+    "boots": "Çizme",
+    "chestplate": "Göğüslük",
+    "helmet": "Miğfer",
+    "hoe": "Çapa",
+    "horse_armor": "At Zırhı",
+    "leggings": "Tozluk",
+    "pickaxe": "Kazma",
+    "shovel": "Kürek",
+    "sword": "Kılıç",
+    "disc_fragment": "Disk Parçası",
+    "dragon_breath": "Ejderha Nefesi",
+    "dried_kelp": "Kurutulmuş Su Yosunu",
+    "echo_shard": "Yankı Parçacığı",
+    "egg": "Yumurta",
+    "elytra": "Elitra",
+    "emerald": "Zümrüt",
+    "enchanted_book": "Büyülü Kitap",
+    "enchanted_golden_apple": "Büyülü Altın Elma",
+    "end_crystal": "End Kristali",
+    "ender_eye": "Ender Gözü",
+    "ender_pearl": "Ender İncisi",
+    "experience_bottle": "Tecrübe İksiri",
+    "feather": "Tüy",
+    "fermented_spider_eye": "Mayalı Örümcek Gözü",
+    "fire_charge": "Ateş Topu",
+    "firework_rocket": "Havai Fişek Roketi",
+    "firework_star": "Havai Fişek Yıldızı",
+    "fishing_rod": "Olta",
+    "flint": "Çakmak Taşı",
+    "flint_and_steel": "Çakmak Taşı ve Çelik",
+    "furnace_minecart": "Ocaklı Vagon",
+    "ghast_tear": "Ghast Gözyaşı",
+    "glass_bottle": "Cam Şişe",
+    "glistering_melon_slice": "Parlayan Karpuz Dilimi",
+    "glow_berries": "Parlayan Meyveler",
+    "glow_ink_sac": "Parlayan Mürekkep Kesesi",
+    "glowstone_dust": "Işık Taşı Tozu",
+    "goat_horn": "Keçi Boynuzu",
+    "gold_ingot": "Altın Külçesi",
+    "gold_nugget": "Altın Parçası",
+    "golden_apple": "Altın Elma",
+    "golden_carrot": "Altın Havuç",
+    "gunpowder": "Barut",
+    "harness": "Dizgin",
+    "heart_of_the_sea": "Denizin Kalbi",
+    "honey_bottle": "Bal Şişesi",
+    "honeycomb": "Bal Peteği",
+    "hopper_minecart": "Hunili Vagon",
+    "ink_sac": "Mürekkep Kesesi",
+    "iron_ingot": "Demir Külçesi",
+    "iron_nugget": "Demir Parçası",
+    "item_frame": "Eşya Çerçevesi",
+    "knowledge_book": "İlim Kitabı",
+    "lapis_lazuli": "Lapis Lazuli",
+    "lava_bucket": "Lav Kovası",
+    "lead": "Kayış",
+    "leather": "Deri",
+    "lingering_potion": "Kalıcı İksir",
+    "mace": "Gürz",
+    "magma_cream": "Magma Kremi",
+    "map": "Harita",
+    "melon_seeds": "Karpuz Tohumu",
+    "melon_slice": "Karpuz Dilimi",
+    "milk_bucket": "Süt Kovası",
+    "minecart": "Vagon",
+    "mushroom_stew": "Mantar Güveci",
+    "music_disc": "Müzik Diski",
+    "mutton": "Çiğ Koyun Eti",
+    "name_tag": "Ad Etiketi",
+    "nautilus_shell": "Notilus Kabuğu",
+    "nether_brick": "Nether Tuğlası",
+    "nether_star": "Nether Yıldızı",
+    "nether_wart": "Nether Yumrusu",
+    "netherite_ingot": "Netherit Külçesi",
+    "nautilus_armor": "Notilus Zırhı",
+    "netherite_scrap": "Netherit Hurdası",
+    "netherite_upgrade_smithing_template": "Netherit Yükseltmesi",
+    "ominous_bottle": "Uğursuz Şişe",
+    "painting": "Tablo",
+    "paper": "Kâğıt",
+    "phantom_membrane": "Kâbus Zarı",
+    "pitcher_plant": "Sürahi Bitkisi",
+    "pitcher_pod": "Sürahi Bitkisi Tohum Zarfı",
+    "poisonous_potato": "Zehirli Patates",
+    "popped_chorus_fruit": "Patlamış Nakarat Meyvesi",
+    "porkchop": "Çiğ Domuz Pirzolası",
+    "potato": "Patates",
+    "potion": "İksir",
+    "powder_snow_bucket": "Tozlaşmış Kar Kovası",
+    "prismarine_crystals": "Prizmarin Kristali",
+    "prismarine_shard": "Prizmarin Parçacığı",
+    "pufferfish": "Kirpi Balığı",
+    "pumpkin_pie": "Bal Kabağı Turtası",
+    "pumpkin_seeds": "Bal Kabağı Tohumu",
+    "quartz": "Nether Kuvarsı",
+    "rabbit": "Çiğ Tavşan Eti",
+    "rabbit_foot": "Tavşan Ayağı",
+    "rabbit_hide": "Tavşan Postu",
+    "rabbit_stew": "Tavşan Güveci",
+    "raw_copper": "Ham Bakır",
+    "raw_gold": "Ham Altın",
+    "raw_iron": "Ham Demir",
+    "recovery_compass": "Kurtarma Pusulası",
+    "redstone": "Redstone Tozu",
+    "resin_brick": "Reçine Tuğla",
+    "rotten_flesh": "Çürük Et",
+    "saddle": "Eyer",
+    "salmon": "Çiğ Somon",
+    "shears": "Makas",
+    "shield": "Kalkan",
+    "shulker_shell": "Shulker Kabuğu",
+    "slime_ball": "Balçık Topu",
+    "snowball": "Kar Topu",
+    "spectral_arrow": "Spektral Ok",
+    "spider_eye": "Örümcek Gözü",
+    "splash_potion": "Patlayıcı İksir",
+    "spyglass": "Dürbün",
+    "stick": "Çubuk",
+    "string": "İp",
+    "sugar": "Şeker",
+    "suspicious_stew": "Şüpheli Güveç",
+    "sweet_berries": "Tatlı Orman Meyveleri",
+    "tipped_arrow": "İksirli Ok",
+    "tnt_minecart": "TNT’li Vagon",
+    "torchflower_seeds": "Meşale Çiçeği Tohumu",
+    "totem_of_undying": "Ölümsüzlük Totemi",
+    "trial_key": "Sınama Anahtarı",
+    "trident": "Üçlü Mızrak",
+    "tropical_fish": "Tropikal Balık",
+    "turtle_scute": "Kaplumbağa Pulu",
+    "warped_fungus_on_a_stick": "Çarpık Mantarlı Olta",
+    "water_bucket": "Su Kovası",
+    "wheat": "Buğday",
+    "wheat_seeds": "Buğday Tohumu",
+    "wind_charge": "Rüzgâr Topu",
+    "wolf_armor": "Kurt Zırhı",
+    "spear": "Mızrak",
+    "writable_book": "Kitap ve Kalem",
+    "written_book": "Yazılı Kitap",
+    "kelp": "Su Yosunu"
+  },
+  "mobs": {
+    "allay": "Huzurveren",
+    "armadillo": "Armadillo",
+    "axolotl": "Aksolotl",
+    "bat": "Yarasa",
+    "bee": "Arı",
+    "blaze": "Blaze",
+    "bogged": "Batık",
+    "breeze": "Esinti",
+    "camel": "Deve",
+    "camel_husk": "Kalıntı Deve",
+    "cat": "Kedi",
+    "cave_spider": "Mağara Örümceği",
+    "chicken": "Tavuk",
+    "cod": "Morina",
+    "copper_golem": "Bakır Golem",
+    "cow": "İnek",
+    "creaking": "Gıcırtı",
+    "creeper": "Creeper",
+    "dolphin": "Yunus",
+    "donkey": "Eşek",
+    "drowned": "Boğuk",
+    "elder_guardian": "Yaşlı Gardiyan",
+    "ender_dragon": "Ender Ejderhası",
+    "enderman": "Enderman",
+    "endermite": "Endermite",
+    "evoker": "Uyandırıcı",
+    "fox": "Tilki",
+    "frog": "Kurbağa",
+    "ghast": "Ghast",
+    "giant": "Dev",
+    "glow_squid": "Parlayan Mürekkep Balığı",
+    "goat": "Keçi",
+    "guardian": "Gardiyan",
+    "happy_ghast": "Mutlu Ghast",
+    "hoglin": "Hoglin",
+    "horse": "At",
+    "husk": "Kalıntı",
+    "illusioner": "Hokkabaz",
+    "iron_golem": "Demir Golem",
+    "llama": "Lama",
+    "magma_cube": "Magma Küpü",
+    "mooshroom": "Mooshroom",
+    "mule": "Katır",
+    "nautilus": "Notilus",
+    "ocelot": "Oselo",
+    "panda": "Panda",
+    "parched": "Kavruk",
+    "parrot": "Papağan",
+    "phantom": "Kâbus",
+    "pig": "Domuz",
+    "piglin": "Piglin",
+    "piglin_brute": "Zalim Piglin",
+    "pillager": "Yağmacı",
+    "polar_bear": "Kutup Ayısı",
+    "pufferfish": "Kirpi Balığı",
+    "rabbit": "Tavşan",
+    "ravager": "Yıkıcı",
+    "salmon": "Somon",
+    "sheep": "Koyun",
+    "shulker": "Shulker",
+    "silverfish": "Gümüşçün",
+    "skeleton": "İskelet",
+    "skeleton_horse": "İskelet At",
+    "slime": "Balçık",
+    "sniffer": "Koklarca",
+    "snow_golem": "Kar Golemi",
+    "spider": "Örümcek",
+    "squid": "Mürekkep Balığı",
+    "stray": "Serseri",
+    "strider": "Lavgezer",
+    "tadpole": "İribaş",
+    "tropical_fish": "Tropikal Balık",
+    "turtle": "Kaplumbağa",
+    "vex": "Sinirbozan",
+    "villager": "Köylü",
+    "vindicator": "İntikamcı",
+    "wandering_trader": "Seyyar Tüccar",
+    "warden": "Muhafız",
+    "witch": "Cadı",
+    "wither": "Wither",
+    "wither_skeleton": "Wither İskeleti",
+    "wolf": "Kurt",
+    "zoglin": "Zoglin",
+    "zombie": "Zombi",
+    "zombie_horse": "Zombi At",
+    "zombie_nautilus": "Zombi Notilus",
+    "zombie_villager": "Zombi Köylü",
+    "zombified_piglin": "Zombileşmiş Piglin"
+  }
+}
