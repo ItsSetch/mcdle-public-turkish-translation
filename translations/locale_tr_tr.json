@@ -399,7 +399,7 @@
           "stack_size": "Stack size",
           "rarity": "Nadirlik",
           "inventory_categories": "Yaratıcı Env. Kategorisi",
-          "renewable": "Yenilenebilir",
+          "renewable": "Yenile-<wbr>nebilir",
           "usage": "Kullanım sayısı",
           "source": "Kaynak sayısı",
           "recipe": "Tarif",
@@ -853,23 +853,23 @@
       "help": {
         "title": "Nasıl Oynanır",
         "intro": {
-          "goal": "Bu oyunun amacı altıgenlerde verilen 7 eşyala üretebileceğin tüm eşyaları üretmek. Bu oyun modunun hem günlük modu hem de düzenleyicisi olan bir sınırsız mode sahip. Günlük modu tamamlayarak kazanma serisi oluşturabilirsin. [TODO] By playing unlimited, you get to learn how to play the game, recipes, and play riddles that other players created using the editor!",
-          "entering_items": "To begin playing, select an item in the hexagons and then click a slot in the crafting table grid, where clicking multiple slots will \"paint\" these slots. Repeat this process until you see your desired recipe in the output slot. Then, click the resulting item to craft! Alternatively, you can also drag-and-drop items from the hexagons or from one slot to another. Additionally, you could also be a \"Keyboard Wizard\" and select the hexagons with the number keys, WASD or arrow keys for the crafting table slots, Space to place, and Enter to craft. Keybinds can be configured in the settings located to the left of the MCdle title."
+          "goal": "Bu oyunun amacı altıgenlerde verilen 7 eşyala üretebileceğin tüm eşyaları üretmek. Bu oyun modunun hem günlük modu hem de düzenleyicisi olan bir sınırsız mode sahip. Günlük modu tamamlayarak kazanma serisi oluşturabilirsin. Sınırsız modu oynarak tarifleri, oyunu ve başka oyuncular tarafından editör kullanılarak oluşturulmış bulmacaları nasıl oynayacağını öğrenebilirsin!",
+          "entering_items": "Oynamaya başlamak için altıgenlerdeki bir eşyayı seç ve çalışma masası gridindeki bir slota tıkla [TODO]. Birden fazla slota tıklamak o slotları \"boyayacaktır\". İstediğin bir tarifi çıktı slotunda görene kadar bu işlemi tekrar et. Sonra çıkan eşyaya tıklarak üret! Bunun yerine eşyaları bir slottan diğerine sürükle-bırak yapabilirsin. Ayrıca bir \"Klavye Sihirbazı\" olup altıgenleri sayı tuşları, WASD veya ok tuşlarıyla seçebilirsin. Çalışma masası slotlarında, yerleştirmek için Boşluk ve üretmek için Enter tuşuna bas. Kısayollar, MCdle başlığının [TODO] solunda bulunan seçenekler kısmında ayarlanabilir."
         },
         "example": {
           "title": "Örnek",
           "intro": "Hadi bazı örneklere bakalım! Tek bir elmastan 5 farklı eşya üretebiliyoruz!",
           "try_example": "Bu örneği dene",
-          "hint_info": "Yardıma mı ihtiyacın var? Sil/temizle butonlarının aşağısında bulunan kutucuk ile ipuçlarını açabilirsin. The hints will appear above the individual hexagons and tell you how many items you have remaining to craft with that ingredient! From there, you can visit the",
+          "hint_info": "Yardıma mı ihtiyacın var? Sil/temizle butonlarının aşağısında bulunan kutucuk ile ipuçlarını açabilirsin. İpuçları her altıgenin üstündedir ve sana o malzemeyle üretmen gereken kaç tane eşya kaldığını gösterir! O noktadan sonra tarifler için",
           "mc_wiki": "Minecraft Wiki",
-          "hint_info_2": "to look up recipes.",
+          "hint_info_2": "sine göz atabilirsin.",
           "test_hints": "İpucu sistemini dene"
         },
         "tips": {
-          "title": "Tips",
-          "individual_results_only": "The game only counts individual results, not individual recipes. For example, both bamboo and planks make sticks, but once you crafted sticks with either, that's it!",
-          "where_help": "Use the hint system if you are stuck. The wiki pairs well with it, just search for the item you are missing!",
-          "not_all_recipes": "Crafting Bee does not contain every craftable recipe. Only standard shaped and shapeless recipes inside the crafting table are included. Non standard recipes, like custom fireworks, decorated pots, or similar are not included."
+          "title": "Tüyolar",
+          "individual_results_only": "Oyun yalnızca tüm farklı çıktıları sayar, tarifleri değil. Bu yüzden bambu ve tahtaların ikisinin de çubuk üretebilmesine rağmen biriyle çubuk ürettiğinde iş bitmiştir!",
+          "where_help": "Takıldığında ipucu sistemini kullan. [TODO] The wiki pairs well with it, just search for the item you are missing!",
+          "not_all_recipes": "Crafting Bee üretilebilecek bütün tarifleri içermez. Sadece çalışma masasında bulunan standart şekilli ve şekilsiz tarifler dahildir. Non standard recipes, like custom fireworks, decorated pots, or similar are not included."
         }
       }
     },
