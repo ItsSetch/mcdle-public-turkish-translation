@@ -869,183 +869,183 @@
           "title": "Tüyolar",
           "individual_results_only": "Oyun yalnızca tüm farklı çıktıları sayar, tarifleri değil. Bu yüzden bambu ve tahtaların ikisinin de çubuk üretebilmesine rağmen biriyle çubuk ürettiğinde iş bitmiştir!",
           "where_help": "Takıldığında ipucu sistemini kullan. [TODO] The wiki pairs well with it, just search for the item you are missing!",
-          "not_all_recipes": "Crafting Bee üretilebilecek bütün tarifleri içermez. Sadece çalışma masasında bulunan standart şekilli ve şekilsiz tarifler dahildir. Non standard recipes, like custom fireworks, decorated pots, or similar are not included."
+          "not_all_recipes": "Crafting Bee üretilebilecek bütün tarifleri içermez. Sadece çalışma masasında bulunan standart şekilli ve şekilsiz tarifler dahildir. [TODO]Non standard recipes, like custom fireworks, decorated pots, or similar are not included. "
         }
       }
     },
     "bestiary": {
       "index": {
-        "title": "Bestiary",
+        "title": "Bestiary [TODO]",
         "books": {
           "blocks": {
-            "title": "The Book of Blocks",
-            "cover_alt_text": "Block Book Cover"
+            "title": "Blokların Kitabı",
+            "cover_alt_text": "Blok Kitabı Kapağı"
           },
           "items": {
-            "title": "The Book of Items",
-            "cover_alt_text": "Item Book Cover"
+            "title": "Eşyaların Kitabı",
+            "cover_alt_text": "Eşya Kitabı Kapağı"
           },
           "mobs": {
-            "title": "The Book of Mobs",
-            "cover_alt_text": "Mob Book Cover"
+            "title": "Canlıların Kitabı",
+            "cover_alt_text": "Canlı Kitabı Kapağı"
           },
           "crafting": {
-            "title": "The Book of Crafting",
-            "cover_alt_text": "Crafting Bee Book Cover"
+            "title": "Üretimin Kitabı",
+            "cover_alt_text": "Crafting Bee Kitabı Kapağı [TODO]"
           }
         }
       },
       "blocks": {
-        "title": "Block Bestiary",
-        "description": "For all the Blocks you might encounter in MCdle."
+        "title": "Block Bestiary [TODO]",
+        "description": "MCdle'da karşılaşabileceğin tüm bloklar içindir."
       },
       "items": {
-        "title": "Item Bestiary",
-        "description": "For all the Items you might encounter in MCdle."
+        "title": "Item Bestiary [TODO]",
+        "description": "MCdle'da karşılaşabileceğin tüm eşyalar içindir."
       },
       "mobs": {
         "title": "Mob Bestiary",
-        "description": "For all the Mobs you might encounter in MCdle."
+        "description": "MCdle'da karşılaşabileceğin tüm canlılar içindir."
       },
       "crafting": {
         "title": "Crafting Bee Bestiary",
-        "description": "For all the items you can craft in MCdle's Crafting Bee.",
+        "description": "MCdle'ın Crafting Bee'sinde üretebileceğin tüm eşyalar içindir.",
         "entry": {
           "discovered": {
-            "label": "Discovered in",
-            "daily": "Daily Challenge",
-            "random": "Random Game",
-            "custom": "Custom Game"
+            "label": "Şu modda keşfedildi",
+            "daily": "Günlük Meydan Okuma",
+            "random": "Rastgele Oyun",
+            "custom": "Özel Oyun"
           },
           "recipes": {
-            "label": "Recipes"
+            "label": "Tarifler"
           }
         },
         "filters": {
-          "unavailable": "There are currently no filters available."
+          "unavailable": "Mevcut bir filtre bulunmamaktadır."
         }
       },
       "generic": {
         "overview": {
-          "title": "Overview",
-          "library_back": "Back to library",
-          "explanation": "Click on an entry to view its page, use the search icon in the top right to find one, or apply filters that apply to the entire page (not just the search results).",
+          "title": "Genel Bakış",
+          "library_back": "Kütüphaneye geri dön",
+          "explanation": "[TODO] Click on an entry to view its page, use the search icon in the top right to find one, or apply filters that apply to the entire page (not just the search results).",
           "sorting": {
-            "alphabet_tooltip": "Sort alphabetically",
-            "alphabet_alt": "A-Z Sort",
-            "release_tooltip": "Sort by release",
-            "release_alt": "Release Sort"
+            "alphabet_tooltip": "Alfabetik olarak sırala",
+            "alphabet_alt": "A'dan Z'ye Sırala",
+            "release_tooltip": "Çıkışa göre sırala",
+            "release_alt": "Çıkış Sıralaması"
           }
         },
         "entry": {
-          "overview_back": "Overview",
-          "not_found": "Norbert didn't find any matching entries in your discovered list =(",
-          "try_different": "Try different filters!",
+          "overview_back": "Genel Bakış",
+          "not_found": "[TODO] Norbert didn't find any matching entries in your discovered list =(",
+          "try_different": "Farklı filtreler dene!",
           "discovered": {
-            "first_discovered": "First discovered:",
-            "in": "in",
-            "and": "and",
-            "more": "more!"
+            "first_discovered": "İlk keşif:",
+            "in": "in [TODO]",
+            "and": "ve",
+            "more": "more! [TODO]"
           }
         },
         "filters": {
-          "applied": "Filters applied",
-          "search_placeholder": "Search",
-          "search_alt": "Search icon",
-          "clear": "Clear Filters",
-          "open": "Filters (Global)",
-          "min": "Min",
-          "max": "Max"
+          "applied": "Filtreler uygulandı",
+          "search_placeholder": "Ara",
+          "search_alt": "Arama ikonu",
+          "clear": "Filtreleri Temizle",
+          "open": "Filtreler (Global)",
+          "min": "En az",
+          "max": "En fazla"
         }
       }
     }
   },
   "components": {
     "quick_help": {
-      "show_button": "Show quick help",
+      "show_button": "Show quick help [TODO]",
       "color_explanation": {
-        "title": "Color explanation",
-        "correct": "Correct Field",
-        "incorrect": "Incorrect Field",
-        "partial": "Partially correct Field"
+        "title": "Renk açıklaması",
+        "correct": "Doğru Alan [TODO]",
+        "incorrect": "Yanlış Alan [TODO]",
+        "partial": "Kısmen doğru Alan"
       }
     },
     "stats": {
-      "copy_button": "Copy",
-      "copied_confirmation": "Copied!",
-      "share": "Share",
+      "copy_button": "Kopyala",
+      "copied_confirmation": "Kopyalandı!",
+      "share": "Paylaş",
       "copy_message": {
-        "header_block": "My #MCdle block statistics 🏆",
-        "header_item": "My #MCdle item statistics 🏆",
-        "header_mob": "My #MCdle mob statistics 🏆",
-        "total_wins": "🎉 Games Won {{number}}",
-        "average_guesses": "🧮 Average Guesses {{number}}",
-        "one_shots": "🎯 One-Shots {{number}}",
-        "current_streak": "🚀 Current Streak {{number}}",
-        "max_streak": "📈 Max Streak {{number}}"
+        "header_block": "#MCdle blok istatistiklerim 🏆",
+        "header_item": "#MCdle eşya istatistiklerim 🏆",
+        "header_mob": "#MCdle canlı istatistiklerim 🏆",
+        "total_wins": "🎉 {{number}} Kazanılan Oyun",
+        "average_guesses": "🧮 {{number}} Ortalama Tahmin",
+        "one_shots": "🎯 {{number}} Tekte Tutturma",
+        "current_streak": "🚀 Şu anki seri {{number}}",
+        "max_streak": "📈 En yüksek seri {{number}}"
       },
       "stat_labels": {
-        "total_wins": "Games Won",
-        "average_guesses": "Average Guesses",
-        "one_shots": "One-Shots",
-        "current_streak": "Current Streak",
-        "max_streak": "Max Streak"
+        "total_wins": "Kazanılan Oyun",
+        "average_guesses": "Ortalama Tahmin",
+        "one_shots": "Tekte tutturma",
+        "current_streak": "Şu anki seri",
+        "max_streak": "En yüksek seri"
       },
       "chart_labels": {
-        "guesses": "Guesses"
+        "guesses": "Tahminler"
       }
     },
     "today_guesses": {
-      "loading": "Loading player guesses...",
+      "loading": "Oyuncu tahminleri yükleniyor...",
       "already_guessed": {
-        "zero": "players already guessed correctly!",
-        "one": "player already guessed correctly!",
-        "two-four": "players already guessed correctly!",
-        "many": "players already guessed correctly!"
+        "zero": "oyuncu çoktan doğru tahmin etti!",
+        "one": "oyuncu çoktan doğru tahmin etti!",
+        "two-four": "oyuncu çoktan doğru tahmin etti!",
+        "many": "oyuncu çoktan doğru tahmin etti!"
       }
     },
     "share_win": {
-      "copy_button": "Copy",
-      "copied_confirmation": "Copied!",
-      "share": "Share",
-      "all_games": "All Games",
+      "copy_button": "Kopyala",
+      "copied_confirmation": "Kopyalandı!",
+      "share": "Paylaş",
+      "all_games": "Tüm Oyunlar",
       "guess_type": {
-        "block": "block",
-        "item": "item",
-        "mob": "mob"
+        "block": "blok",
+        "item": "eşya",
+        "mob": "canlı"
       },
       "guess_line": {
-        "one": "I discovered {{date}}'s #MCdle {{type}} in {{number}} try! {{emoji}}",
-        "many": "I discovered {{date}}'s #MCdle {{type}} in {{number}} tries! {{emoji}}"
+        "one": "{{date}} tarihindeki #MCdle {{type}} [TODO] {{number}} denemede keşfettim! {{emoji}}",
+        "many": "{{date}} tarihindeki #MCdle {{type}} [TODO] {{number}} denemede keşfettim! {{emoji}}"
       },
       "short_guess_line": {
-        "intro": "I discovered {{date}}'s #MCdle ",
-        "one": "{{type}} in {{number}} try",
-        "many": "{{type}} in {{number}} tries",
-        "conjunction": " and "
+        "intro": "{{date}} tarihindeki #MCdle ",
+        "one": "{{type}} {{number}} denemede keşfettim",
+        "many": "{{type}} {{number}} denemede keşfettim",
+        "conjunction": " ve "
       }
     },
     "hints": {
       "in_x_guesses": {
-        "one": "in {{number}} guess!",
-        "many": "in {{number}} guesses!"
+        "one": "{{number}} tahmin sonra!",
+        "many": "{{number}} tahmin sonra!"
       },
       "version": {
-        "description": "Release version hint",
-        "solution": "You're looking for a {{version}} release!"
+        "description": "Çıkış sürümü ipucusu",
+        "solution": "{{version}} sürümünde yayınlandı!"
       },
       "letter": {
-        "description": "Starting letter hint",
-        "solution": "The solution starts with {{letter}}..."
+        "description": "İlk harf ipucusu",
+        "solution": "Cevap {{letter}} ile başlıyor!"
       },
       "image": {
-        "description": "Zoomed image hint",
-        "solution": "Can you see what's hiding in this 8x zoomed in image?"
+        "description": "Yaklaştırılmış resim ipucusuZoomed image hint",
+        "solution": "8x yakınlaştırılmış bu resimdekinin ne olduğunu anlayabiliyor musun?"
       }
     },
     "toasts": {
       "patchnotes": {
-        "live": " are now live! Check them out!"
+        "live": " yayınlandı! Bir göz at!"
       }
     }
   },
