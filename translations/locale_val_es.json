@@ -63,13 +63,16 @@
 					"post_link": " Colaboradors!"
 				}
 			}
-		}
+		},
+		"disclaimer": "NO ES UN PRODUCTE OFICIAL DE MINECRAFT. NO APROVAT NI ASSOCIAT A MOJANG NI A MICROSOFT"
 	},
 	"header": {
 		"settings": {
 			"headers": {
 				"mcdle": "Mcdle",
-				"crafting_bee": "Crafting Bee"
+				"crafting_bee": "Crafting Bee",
+				"general": "General",
+				"guesser": "Endevinalles de Criatura, Bloque, i Objecte"
 			},
 			"colorblind": {
 				"input_name": "Mode daltonisme",
@@ -103,6 +106,9 @@
 					"title": "Buscar:"
 				},
 				"title": "Dificultat"
+			},
+			"streak": {
+				"label": "Mostrar ratxa"
 			},
 			"keybinds": {
 				"title": "Tecles",
@@ -500,7 +506,7 @@
 				"example": {
 					"title": "Exemple",
 					"intro": "Vegem un exemple. Primer provarem un objecte a l'atzar.",
-					"table_interpretation_1": "Veiem que l'objecte, a l'igul  que la majoria és stackeable en 64. És posterior a la Beta 1.2, Té raresa Comuna, és renovable i hi ha almenys 5 usos per a ell, i menys de 6 maneres d'obtindre-ho, d'acord amb la Wiki de Minecraft. Fins i tot, no és usat en el món ni en crafteos. Provem un objecte diferent.",
+					"table_interpretation_1": "Veiem que l'objecte, a l'igul  que la majoria és stackeable en 64. És posterior a la Beta 1.2, Té raresa Comuna, és renovable, no es pot craftejar i no es pot saquejar en cofres o assalts de villes, d'acord amb la Wiki de Minecraft. Fins i tot, no és usat en el món ni en crafteos. Provem un objecte diferent.",
 					"table_interpretation_2": "Descobrim que és d'una versió més recent! Vegem un objecte de la Beta 1.8 que està en la categoria \"use\" d'acord amb la wiki de Minecraft. Necessitem un objecte que coincidisca amb la quantitat d'usos i maneres d'obtindre.",
 					"table_interpretation_3": "Ací està! Descobrim que l'objecte era la rodanxa de meló d'Alger, que divertit!"
 				},
@@ -771,10 +777,18 @@
 					}
 				},
 				"quick_settings": {
+					"title": "Opcions ràpides",
 					"hints": "Mostrar pistes de receptes restants?",
 					"timer": "Incluir temporizador?",
 					"regenerate": "Generar nova endevinalla",
-					"auto_craft": "Auto craftear?"
+					"auto_craft": "Auto craftear?",
+					"shadow_hint": "Mostrar pistes de siluetes?",
+					"hint_popup": {
+						"greeting": "Hola, necessite una ",
+						"hint": "pista",
+						"closing": "?",
+						"pointing_to_hints": "També pots trobar aquestes pistes avall!"
+					}
 				},
 				"try_editor": "Prova l'editor!"
 			},
@@ -1344,7 +1358,10 @@
 		"shelf": "Prestatgeria",
 		"copper_chest": "Cofre de coure",
 		"copper_golem_statue": "Estàtua de gólem de coure",
-		"golden_dandelion": "Dent de lleó daurat"
+		"golden_dandelion": "Dent de lleó daurat",
+		"cinnabar": "Cinabri",
+		"sulfur": "Sofre",
+		"sulfur_spike": "Pic de sofre"
 	},
 	"items": {
 		"boat": "Barca",
@@ -1544,7 +1561,8 @@
 		"kelp": "Alga",
 		"copper_nugget": "Palleta de coure",
 		"spear": "Llança",
-		"nautilus_armor": "Armadura de netherita per a nautilus"
+		"nautilus_armor": "Armadura de netherita per a nautilus",
+		"sulfur_cube_bucket": "Poal amb cub de sofre"
 	},
 	"mobs": {
 		"allay": "Allay",
@@ -1634,6 +1652,7 @@
 		"camel_husk": "Dromedari momificat",
 		"nautilus": "Nautilus",
 		"parched": "Esquelet de les arenes",
-		"zombie_nautilus": "Nautilus zombi"
+		"zombie_nautilus": "Nautilus zombi",
+		"sulfur_cube": "Cub de sofre"
 	}
 }
